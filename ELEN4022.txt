@@ -1,0 +1,4 @@
+ELEN4022 - Full stack Quantum Computing 
+
+Class assignments are intense, labs are serious business, and the simulations are 
+mostly vibes and prayers. But at least it's not mathematics

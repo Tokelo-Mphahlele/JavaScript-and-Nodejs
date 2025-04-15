@@ -1,0 +1,37 @@
+/* const courseCode = 'ELEN4010'
+const word = '40'
+
+const addyearOffered = function (courseCode, yearOffered) {
+  courseCode.yearOffered = yearOffered
+}
+
+addyearOffered(courseCode, 4)
+
+console.log(
+    `The course "${courseCode}" ${
+      courseCode.includes(word) ? 'is' : 'is not'
+    } in forth year of study`
+)
+    */
+
+const course = { courseCode: 'ELEN4010' }
+
+const addYearOffered = function (courseObj) {
+  if (courseObj.courseCode.includes('40')) {
+    courseObj.yearOffered = 4
+  } else if (courseObj.courseCode.includes('30')) {
+    courseObj.yearOffered = 3
+  } else if (courseObj.courseCode.includes('20')) {
+    courseObj.yearOffered = 2
+  } else if (courseObj.courseCode.includes('10')) {
+    courseObj.yearOffered = 1
+  } else {
+    courseObj.yearOffered = 'Unknown'
+  }
+}
+
+addYearOffered(course)
+
+console.log(
+  `The course "${course.courseCode}" is in year ${course.yearOffered} of study.`
+)

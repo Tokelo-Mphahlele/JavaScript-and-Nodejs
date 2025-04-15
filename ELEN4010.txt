@@ -1,0 +1,10 @@
+ELEN4010 has been a wild ride so far! Walking into the first lecture, 
+I wasn’t quite sure what to expect, but I quickly realized this course 
+dives deep into advanced software engineering concepts with real-world applications. 
+
+The highlight for me has definitely been the simulations. There’s something satisfying 
+about watching a complex circuit you've designed from scratch actually work 
+Overall, ELEN4010 has taught me a lot about persistence, design thinking, 
+and the importance of asking the right questions. It’s not just about getting the right answer,
+but understanding *why* that answer makes sense in a practical engineering context. 
+Looking forward to the final project — let’s hope the oscilloscope doesn't crash again!

@@ -1,0 +1,22 @@
+const fs = require('fs')
+
+// Placeholder text
+const placeholder = `ELEN4022 - Full stack Quantum Computing 
+
+Class assignments are intense, labs are serious business, and the simulations are 
+mostly vibes and prayers. But at least it's not mathematics`
+
+// Writing the placeholder text to ELEN4022.txt
+fs.writeFile('./ELEN4022.txt', placeholder, (err) => {
+  if (err) {
+    console.error('❌ Failed to write file:', err)
+  } else {
+    console.log('✅ Placeholder essay for ELEN4022 has been written!')
+  }
+})
+
+// Reading the placeholder text to ELEN4022.txt
+fs.readFile('ELEN4022.txt', 'utf8', (err, data) => {
+  if (err) throw err
+  console.log('File content:', data)
+})
